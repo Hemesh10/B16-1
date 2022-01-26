@@ -1,0 +1,251 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+
+body{
+    background-color: rgb(247, 217, 175);
+}
+
+#main{
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(49, 47, 47);
+}
+
+#left{
+    width: 30%;
+    height: 100%;
+}
+
+#centre{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM0fHxlbGVnYW50JTIwd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#right{
+    width: 25%;
+    height: 100%;
+}
+
+#rtop{
+    position: relative;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1496440737103-cd596325d314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position:right;
+}
+
+#rbottom{
+    position: relative;
+    height: 20%;
+    background-color: #fff;
+}
+
+#heading h1{
+    position: absolute;
+    top: 20%;
+    left: 9.75%;
+    font-family: Hursheys;
+    font-size: 96px;
+    font-weight: 150;
+    letter-spacing: 3px;
+    color: #fff;
+    line-height:100px;
+    z-index: 100;
+}
+
+#heading #abt{
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+    font-size: 18px ;
+    font-family: fantasy;
+    font-weight: 100;
+    color: #fff;
+}
+
+#rbottom h1{
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    font-family: Hursheys;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+#main #linediv{
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    bottom: 30%;
+    border-top: solid rgba(255, 255, 255, 0.404);
+    border-bottom: solid rgba(255, 255, 255, 0.404);
+    z-index: 100;
+}
+
+#text1 #a{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: Hersheys;
+    font-size: 8px;
+    color: rgb(240, 232, 232);
+    letter-spacing: 6px;
+}
+
+#text2 #b{
+    position: absolute;
+    top: 30%;
+    right: 4%;
+    font-family: Hersheys;
+    font-size: 8px;
+    color: rgb(240, 232, 232);
+    letter-spacing: 5.45px;
+}
+
+#main #linediv:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .8s ;
+    background-color: rgba(255, 238, 217, 0.418);
+    cursor: pointer;
+}
+
+#centre #circle{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 20%;
+    right: 5%;
+    border-radius: 50%;
+    border: solid rgba(235, 231, 224, 0.466);
+}
+
+#circle h6{
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    font-family: hursheys;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: rgb(255, 252, 247);
+}
+
+#centre #circle:hover{
+    background-color: rgba(255, 238, 217, 0.418);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .8s ;
+    cursor: pointer;
+}
+
+#circle h6:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s ;
+    font-size: 20px;
+}
+
+#centre #prd{
+    position:absolute;
+    top: 3%;
+    left: 5%;
+    font-size: 18px ;
+    font-family: fantasy;
+    font-weight: 100;
+    color: #fff;
+}
+
+#centre #catg{
+    position: absolute;
+    top: 3%;
+    right: 14%;
+    font-size: 18px ;
+    font-family: fantasy;
+    font-weight: 100;
+    color: #fff;
+}
+
+#rtop h3{
+    position: absolute;
+    top: 3.5%;
+    right: 10%;
+    font-size: 18px ;
+    font-family: fantasy;
+    font-weight: 100;
+    color: #fff;
+}
+
+#heading h1:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    color: rgb(247, 217, 175);
+    -webkit-text-stroke: rgb(255, 255, 255) 1px;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+#left #abt:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    color: rgb(255, 220, 167);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#centre #prd:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    color: rgb(255, 220, 167);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#centre #catg:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    color: rgb(255, 220, 167);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#rtop h3:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    color: rgb(255, 220, 167);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#startext h1{
+    position: absolute;
+    bottom: 13%;
+    left: 1%;
+    font-family: Hursheys;
+    font-family: hursheys;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    color: rgb(248, 246, 245);
+}
+
+#centre #str{
+    position: absolute;
+    bottom: 16%;
+    left: -2%;
+    font-size: 65px;
+    color:rgb(248, 246, 245) ;
+}
+
+#rbottom:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    background-color: rgb(71, 68, 68);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
