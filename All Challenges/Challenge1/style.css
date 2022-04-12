@@ -1,0 +1,324 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+#top #tleft{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1554577621-1a3def0b656c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHBvdHRlZCUyMHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#tleft #plantlogo{
+    position: absolute;
+    top: 4.5%;
+    left: 4%;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#tleft #name{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #fff;
+}
+
+#tleft h3 #x{
+    font-size: 7px;
+}
+
+#tleft #linediv{
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    bottom: 15%;
+    left: 10%;
+    border-end-end-radius: 30%;
+    border-start-start-radius: 30%;
+    background-color: rgb(109, 109, 109);
+    
+}
+
+#linediv #seclinediv{
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    border-start-start-radius: 30%;
+    background-color: rgb(255, 255, 255);  
+}
+
+#tleft h4{
+    position: absolute;
+    left: 10.5%;
+    bottom: 19%;
+    color: #fff;
+    font-size: 15px;
+}
+
+#tleft #arrows{
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    right: 8%;
+    font-weight: 700;
+    color: #fff;
+}
+
+#top #tcentre{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(212, 102, 124) ;
+}
+
+#top #tright{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(228, 220, 210);
+}
+
+#tcentre h5{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    color: #fff;
+    letter-spacing: 1px; 
+    font-family: hursheys;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#tcentre h2{
+    position: absolute;
+    left: 5%;
+    bottom: 28%;
+    color: #fff;
+}
+
+#tcentre p{
+    position: absolute;
+    left: 5%;
+    bottom:10% ;
+    color: #fff;
+}
+
+#tcentre h3{
+    position: absolute;
+    right: 11%;
+    top: 8%;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight:bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#tcentre #a{
+    position: absolute;
+    bottom: 30%;
+    right: 1%;
+    transform: rotate(90deg);
+    font-size: 14px;
+    color: #fff;
+    z-index: 100;
+    letter-spacing: 2px;
+    font-weight: 50;
+}
+
+#tcentre h1{
+    position: absolute;
+    left: 5%;
+    top: 38%;
+    color: #fff;
+    font-size: 60px;
+}
+
+#tright #p{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: 800;
+}
+
+#tright #q{
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    transform: rotate(90deg);
+    font-weight: 700;
+}
+
+#tright h1{
+    position: absolute;
+    bottom: 20%;
+    right: 12%;
+    font-size: 50px;
+}
+
+#tright #r{
+    position: absolute;
+    bottom: 13%;
+    right: 13%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: hersheys;
+}
+
+#bottom #bleft{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(228, 220, 210);
+}
+
+#bleft #post{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 5px;
+}
+#bleft #maintag{
+    position: absolute;
+    top: 25%;
+    left: 7.5%;
+    font-size: 70px;
+}
+
+#bleft #m{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+#bleft #pr{
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+#bleft #S{
+    position: absolute;
+    top: 65%;
+    right: 0.25%;
+    transform: rotate(-90deg);
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+#bleft #mat{
+    position: absolute;
+    top: 68%;
+    left: 8%;
+}
+
+#bleft #prt{
+    position: absolute;
+    top: 68%;
+    left: 33%;
+}
+
+#bottom #bright{
+    position: relative;
+    width: 45%;
+    height: 100%;
+}
+
+#bright #brtop{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://media.istockphoto.com/photos/potted-snake-plants-inside-a-beautiful-new-flat-or-apartment-picture-id1268045137?b=1&k=20&m=1268045137&s=170667a&w=0&h=VlbskLfIUPMfIO917CJA355xca8kZIDG36wjmf_vHdE=);
+    background-position: center;
+    background-size: cover;
+}
+
+#brtop #mwl{
+    position: absolute;
+    bottom: 6%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#bright #brbottom{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+}
+
+#bleft #i{
+    position: absolute;
+    top: 36%;
+    right: 6.8%;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+#bleft #f{
+    position: absolute;
+    top: 26%;
+    right: 6.8%;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+#bleft #t{
+    position: absolute;
+    top: 15%;
+    right: 6.8%;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+#brbottom #brbleft{
+    width: 70%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1514192497895-875274f82835?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBsYW50JTIwcG90c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position:center;
+    background-size: cover;
+}
+
+#brbottom #brbright{
+    width: 30%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/photos/seedling-of-purple-orange-pansy-viola-flower-in-pot-picture-id185291005?b=1&k=20&m=185291005&s=170667a&w=0&h=U-P2OSc0wqpYnfmi7VlsV0_MgG0vmManx1VUOZoPKiQ=);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

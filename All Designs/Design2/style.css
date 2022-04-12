@@ -1,0 +1,387 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#left{
+    position: relative;
+    width: 5%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+
+#right{
+    width: 95%;
+    height: 100%;
+}
+
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+#rbtm{
+    width: 100%;
+    height: 20%;
+    background-color: #323232;
+    background-image: url(https://media.istockphoto.com/photos/elegant-black-floral-textured-background-exquisite-dual-tone-black-picture-id1313412854?b=1&k=20&m=1313412854&s=170667a&w=0&h=7jdvyqAXOchBRgksEjSKo5muaVOGNZr8FFL5XZMg32k=);
+    background-position: center;
+    background-size: contain;
+}
+#rtleft{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    background-color: #ffaa00;
+}
+
+
+#rtright{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    background-color: #a52b2d;
+}
+
+#text{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 50px;
+    line-height: 86px;
+    color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+#text2{
+    position: absolute;
+    margin-left: 235px;
+    transform-origin: 0% 50% ;
+    transform: rotate(90deg);
+    margin-top: -70px;
+}
+
+#text3{
+    position: absolute;
+    top: 135%;
+    left: 4%;
+    font-size: 9px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+#rtleft #maincircle{
+    position: absolute;
+    top: 12%;
+    left: 13.9%;
+    width: 180px;
+    height: 180px;
+    background-color: #A42A2C;
+    border-radius: 50%;
+}
+
+#secondcircle{
+    position: absolute;
+    width: 75px;
+    height:75px;
+    background-color: #BF2D2E;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+#thirdcircle{
+    position: absolute;
+    width: 10px;
+    height:10px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+#scircle{
+    position: absolute;
+    top: 6%;
+    right: 18%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#scircle #searchicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-54%,-44%);
+}
+
+#searchicon a{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#firstcircle{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 25%;
+    left: -35px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: solid 5px rgb(255, 0, 0) ;
+    overflow: hidden;
+}
+
+
+#knife{
+    position: absolute;
+    height: 800px;
+    width: auto;
+    top: 17%;
+    left: 53%;
+}
+
+#knife69{
+    position: absolute;
+    height: 800px;
+    width: auto;
+    top: 18%;
+    left: 38%;
+}
+
+#firstcircle img{
+    position: absolute;
+    top:12%;
+    left:38%;
+    height: 80px;
+    width: auto;
+}
+
+#circle1{
+    position: relative;
+    top: 26%;
+    left: 22px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#circle2{
+    position: absolute;
+    top: 45%;
+    left: -7px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#circle3{
+    position: absolute;
+    top: 55%;
+    left: -7px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#circle4{
+    position: absolute;
+    top: 65%;
+    left: -7px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#circle5{
+    position: absolute;
+    top: 75%;
+    left: -7px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#circle1 h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 8px;
+    color: #a52b2d;
+}
+
+#circle2 h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 8px;
+}
+
+#circle3 h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 8px;
+}
+
+#circle4 h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 8px;
+}
+
+#circle5 h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 8px;
+}
+
+#rtleft #backgroundimage{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-technology-background-with-dots-and-lines-connection-data-vector-id1090359998?k=20&m=1090359998&s=612x612&w=0&h=SjavUhpRdJSDAN1I7yD6aBig-7prLg8jn97j6AcGyL4=);
+    opacity: .25;
+    background-position:center;
+}
+
+#left a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-decoration: none;
+}
+
+#left h1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#left h1:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+    font-size: 55px;
+    color: black;
+    -webkit-text-stroke: rgb(255, 255, 255) 0.2px;
+     cursor: pointer;
+}
+
+#rtright #linediv1{
+    position: absolute;
+    top: 46.3%;
+    left: 10%;
+    width: 20px;
+    height: 0.1px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#rtright #linediv2{
+    position: absolute;
+    top: 56.3%;
+    left: 10%;
+    width: 20px;
+    height: 0.1px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#rtright #linediv3{
+    position: absolute;
+    top: 66.3%;
+    left: 10%;
+    width: 20px;
+    height: 0.1px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#rtright #linediv4{
+    position: absolute;
+    top: 76.3%;
+    left: 10%;
+    width: 20px;
+    height: 0.1px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#rtright #z{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+}
+
+#rtright #p{
+    position: absolute;
+    top: 45.1%;
+    left: 32%;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+}
+
+#rtright #q{
+    position: absolute;
+    top: 55.1%;
+    left: 32%;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+}
+
+#rtright #r{
+    position: absolute;
+    top: 65.1%;
+    left: 32%;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+}
+
+#rtright #s{
+    position: absolute;
+    top: 74%;
+    left: 32%;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+}
+
+#left h6{
+    position: absolute;
+    color: #fff;
+    font-weight: 100;
+    bottom: 5%;
+    left: 10%;
+    transform: rotate(90deg)
+}

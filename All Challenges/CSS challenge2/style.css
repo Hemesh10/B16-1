@@ -1,0 +1,51 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 248, 239);
+}
+
+.navbar{
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    background-color: coral;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+}
+
+.navleft .circle1{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid rgb(187, 143, 84);
+}
+
+.bluetext{
+    color: rgb(11, 36, 109);
+}
+
+.bluetext h4{
+    margin-bottom: 3px;
+}
+
+.bluetext h1{
+    margin-bottom: 9 Mpx;
+}
+
+.orangetext{
+    color: orangered;
+}

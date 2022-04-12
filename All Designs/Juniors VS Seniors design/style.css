@@ -1,0 +1,496 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+#navleft{
+    display: flex;
+}
+
+#navleft .a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 20px;
+    z-index: 1;
+}
+
+#navleft .a:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+    text-decoration: underline 2px;
+}
+
+#circle1{
+    margin-left: 0%;
+}
+
+#circle1{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#circle1 #menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-42%);
+    color: black;
+    text-decoration: none
+}
+
+#circle2{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#circle2 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%,-45%);
+    text-decoration: none;
+    color: black;
+}
+
+#top{
+    position: relative;
+    width:100%;
+    height: 80%;
+    
+}
+
+#top img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+#top #logo{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    bottom: 20%;
+    left: 8.6%;
+}
+
+
+#linedivelements{
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    color: rgb(216, 216, 216);
+}
+
+#linediv1{
+    width: 100px;
+    height: 1.5 px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-end-end-radius: 25%;
+    border-end-start-radius: 25%;
+}
+
+#linediv2{
+    width: 70%;
+    height: 1.5px;
+    background-color: rgb(255, 251, 0);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-end-end-radius: 25%;
+    border-end-start-radius: 25%;
+}
+
+#socials{
+    position: absolute;
+    right: -3.59%;
+    top: 35%;
+    transform: rotate(90deg);
+}
+
+#socials a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    font-size: 12px;
+}
+
+#socials #fb{
+    margin-left: 0%;
+}
+
+#socials #twt{
+    margin-right: 0%;
+}
+
+#h3{
+    position: absolute;
+    color: #fff;
+    font-size:20px ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    top: 38%;
+    left: 18.7%;
+    letter-spacing: 5px;
+}
+
+#text{
+    position: absolute;
+    top: 38%;
+    left: 64%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    letter-spacing: 3.5px;
+    line-height: 25px;
+}
+
+#h3b{
+    font-weight: 900;
+}
+
+#share{
+    position: absolute;
+    bottom: 26%;
+    left: 19%;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+#circle3{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid 1px #fff;
+}
+
+#circle3 i{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#share .btns{
+    margin: 0px 25px 0px 0px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+}
+
+#share button{
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    width: 120px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#share button h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    font-size: 12px;
+}
+
+#textandimages{
+    position: absolute;
+    width: 32%;
+    height: 28%;
+    bottom: 0%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+#textandimages #top2{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+#top2 img{
+    position: absolute;
+    right: 2.5%;
+    top: 2%;
+    width: 320px;
+    height: auto;
+
+}
+
+#top2 h5{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+#top2 h6{
+    position: absolute;
+    top: 57%;
+    left: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 100;
+    color: rgba(255, 255, 255, 0.596);
+    line-height: 18px;
+}
+
+#textandimages #btm2{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+#textandimages #btm2 #btmleft2{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#textandimages #btm2 #btmcentre{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 169, 50);
+}
+
+#textandimages #btm2 #btmright2{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+#btmleft2 h5{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 400;
+    font-family:sans-serif;
+}
+
+#btmcentre h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    font-family:sans-serif;
+    word-spacing: 3px;
+}
+
+#btmright2 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 30px;
+}
+
+#top #twocircles{
+    position: absolute;
+    width: 58px;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+    bottom: 4.2px;
+    right: 33.5%;
+}
+
+#twocircles #circleone{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+#circleone i{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+}
+
+#twocircles #circletwo{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+#circletwo i{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+}
+
+#btm{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+#btmleft{
+    width: 28%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#btmleft img{
+    width: 100%;
+    height: 100%;
+}
+
+#btmcentreleft{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#btmcentreleft h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#btmcentreright{
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+#btmcentreright img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: auto;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+#btmcentreright #reddiv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 0, 0);
+}
+
+#reddiv h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%,-50%);
+    z-index: 2;
+    text-align:center;
+    font-size:20px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    word-spacing: -5px;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#reddiv h3 span{
+    letter-spacing: 2.5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btmright{
+    position: relative;
+    width: 32%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px ;
+}
+
+#textandcircle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 35%;
+}
+
+#textandcircle .reviewelement{
+    margin:0px 25px 0px 0px;
+}
+
+#ign{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(224, 0, 0);
+}
+
+#ign h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 900;
+}
+
+#btmright #marks{
+    position: absolute;
+    bottom: 14%;
+    left: 22%;
+    font-weight: 900;
+    font-family:cursive;
+}

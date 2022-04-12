@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(125, 180, 117);
+}
+
+#board{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 12%;
+    background-color: rgb(32, 161, 0);
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 88%;
+    font-size: 40px;
+}
+
+#bottom button{
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(green,white,green);
+    color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#score{
+    width: 33.33%;
+    height: 100%;
+}
+
+#timer{
+    width: 33.33%;
+    height: 100%;
+}
+
+#hit{
+    width: 33.33%;
+    height: 100%;
+}
+
+.sc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 2px 5px 2px 5px;
+    border: 5px solid #fff;
+    margin-left: 20px;
+    border-radius: 30%;
+
+}
+
+.bubbles{
+    display:flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: green;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer;
+}

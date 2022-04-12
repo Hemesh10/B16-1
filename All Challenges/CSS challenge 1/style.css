@@ -1,0 +1,117 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left{
+    background-color: yellow;
+    width: 45%;
+    height: 100%;
+}
+
+#centre{
+    width: 45%;
+    height: 100%;
+}
+
+#right{
+    position: relative;
+    background-color: yellow;
+    width: 10%;
+    height: 100%;
+}
+
+#left #a{
+    position: absolute;
+    top: 30%;
+    left: 19.5%;
+    font-size: 100px;
+    line-height: 100px;
+    color: blue;
+}
+
+#left #b{
+    position: absolute;
+    top: 41%;
+    left: 19.5%;
+    font-size: 100px;
+}
+
+#b span{
+    color: blue;
+}
+
+#left #text{
+    position: absolute;
+    top: 58%;
+    left: 20%;
+    font-size: 10px;
+    font-weight:800 ;
+    line-height: 10px;
+}
+
+#linediv{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    height: .01x;
+    width: 50%;
+    border-radius: 20%;
+    border: solid blue 1px;
+}
+
+#one{
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    font-size: 100px;
+    color: blue;
+}
+
+#two{
+    position: absolute;
+    bottom: 12%;
+    right: 20%;
+    font-size: 100px;
+    color: blue;
+}
+
+#p{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    transform: rotate(90deg);
+    font-size: 10px;
+}
+
+#q{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    transform: rotate(90deg);
+    font-size: 10px;
+}
+
+#r{
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    transform: rotate(90deg);
+    font-size: 10px;
+}
+
+#centre{
+    background-image: url(https://images.unsplash.com/photo-1596942506460-9123e66e5d84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZWxlZ2FudCUyMHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=600);
+    background-position: center;
+    background-size: cover;
+}
