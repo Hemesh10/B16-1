@@ -1,4 +1,4 @@
-document.querySelector("#button"),addEventListener("click",function(){
+document.querySelector("#button").addEventListener("click",function(){
     score = 0;
     timer = 59;
     function allBubbles() {

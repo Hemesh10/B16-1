@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 171, 68);
+}
+
+#secondmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:skyblue;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+#thirdmain{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(92, 50, 134);
+}

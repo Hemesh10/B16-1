@@ -78,6 +78,7 @@ html,body{
     font-size: 200px;
     line-height: 190px;
     opacity: 0;
+    display: block;
 }
 
 #mainheading p{
@@ -140,33 +141,30 @@ html,body{
 }
 
 #footer .ftop h1{
-    display: inline;
+    display: block;
     font-size: 100px;
     font-family: "Vanguard CF"; 
     word-spacing: 8px;
 }
 
-.ftop span{
-    font-size: 100px;
-    font-family: "Vanguard CF"; 
-    word-spacing: 8px;
-    transform: translateY(100%);
+.ftop h1:nth-child(2){
+    display:inline-flex;
+    background-color: red;
 }
 
-.ftop .fcircle{
+.ftop #fcircle{
     width: 160px;
     height: 160px;
-    background-color: #000;
+    background-color:#000;
     border-radius: 50%;
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    
+    color: #fff;    
 }
 
-.ftop .fcircle h6{
+.ftop #fcircle h6{
     font-family: "Gilroy";
     font-size: 15px;
     font-weight: 700;
@@ -195,16 +193,17 @@ html,body{
 }
 
 body #svgdiv{
-    position: absolute;
+    position: fixed;
     display: inline-block;
     z-index: 100;
     visibility:hidden;
     pointer-events: none;
-    
+    border-radius: 50%;
+    transition: all ease-out .1s;
 }
 
 body #svg1{
-    width: 80px;
+    width: 100px;
     height: auto;
     animation: rotation 6s infinite linear;
 }

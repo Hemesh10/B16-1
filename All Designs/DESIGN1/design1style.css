@@ -64,7 +64,7 @@ body{
     font-size: 96px;
     font-weight: 150;
     letter-spacing: 3px;
-    color: #fff;
+    /* color: #fff; */
     line-height:100px;
     z-index: 100;
 }
@@ -189,7 +189,7 @@ body{
 
 #heading h1:hover{
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
-    color: rgb(247, 217, 175);
+    color: rgb(49, 47, 47);
     -webkit-text-stroke: rgb(255, 255, 255) 1px;
     font-size: 100px;
     cursor: pointer;
