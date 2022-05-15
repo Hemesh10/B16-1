@@ -54,7 +54,7 @@ html,body{
 .box h1{
     color: #fff;
     font-size:100px;
-    transform: translateY(85%);
+    transform: translateY(0%);
     opacity: 1;
 }
 
