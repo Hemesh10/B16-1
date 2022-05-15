@@ -19,7 +19,6 @@ function boxAnimation() {
             scrollTrigger: {
                 trigger: "#section",
                 start: "15% 50%",
-                markers:true
             },
             opacity: 0,
             y: "15%",
@@ -31,7 +30,6 @@ function boxAnimation() {
             scrollTrigger: {
                 trigger: "#section",
                 start: "35% 50%",
-                markers:true
             },
             opacity: 0,
             y: "15%",
@@ -43,7 +41,6 @@ function boxAnimation() {
             scrollTrigger: {
                 trigger: "#section",
                 start: "55% 50%",
-                markers:true
             },
             opacity: 0,
             y: "15%",
@@ -55,7 +52,6 @@ function boxAnimation() {
             scrollTrigger: {
                 trigger: "#section",
                 start: "74% 50%",
-                markers:true
             },
             opacity: 0,
             y: "15%",
