@@ -1,3 +1,11 @@
+@font-face{
+    font-family: "Vanguard CF";
+    src: url(C:\Windows\Fonts\VanguardCFDemiBold);
+}
+@font-face {
+    font-family: "Gilroy Light";
+    src: url(C:\Windows\Fonts\Gilroy\GilroyLight);
+}
 *{
     margin  : 0 ;
     padding : 0 ;
