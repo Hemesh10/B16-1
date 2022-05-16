@@ -117,11 +117,6 @@ function boxAnimation() {
 }
 
 
-//$(".ttxt h1").textillate({ in : {effect:'fadeInUp'} });
-//$(".ttxt h1").textillate({ out : {effect:'fadeInUp'} });
-
-
-
 function pointerBorderColorChange() {
     document.querySelectorAll(".blackText")
         .forEach(function (elem) {
