@@ -1,10 +1,10 @@
 @font-face{
     font-family: "Vanguard CF";
-    src: url(C:\Windows\Fonts\VanguardCFDemiBold);
+    src: url(fonts/5f729a273e12c8c5fddc5a82_VanguardCF-DemiBold.ttf);
 }
 @font-face {
     font-family: "Gilroy Light";
-    src: url(C:\Windows\Fonts\Gilroy\GilroyLight);
+    src: url(fonts/Gilroy-Light.otf);
 }
 *{
     margin  : 0 ;
@@ -171,13 +171,12 @@ html,body{
     left: 16%;
     display: flex;
     flex-direction: column;
-    min-width: 900px;
+    width: 55%;
     overflow: hidden;
 }
 
 .ftop .abcd h1{
     transform: translateY(100%);
-    visibility: visible;
 }
 
 .ftop .abcd h1:nth-child(2){
@@ -337,24 +336,23 @@ body #svg2{
     #footer .ftop{
         padding: 50px 7px;
     }
-
     #footer .ftop h1{
-        transform: translateY(100px);
-        font-size: 43.5px;
+        transform: translateY(50px);
+        font-size: 40px;
+    }
+    .ftop .abcd{
+        top: 31%;
+        left:1%;
+        width: 98%;
+        overflow: hidden;
     }
     .ftop #fcircle{
         width: 200px;
         height: 200px;
-        margin-top: 150px;
+        margin-top: 120px;
         transform: translateY(100px);
     }
-    .ftop .abcd{
-        transform: translateY(100px);
-        top: 107px;
-        left: 1.6%;
-        min-width: 98%;
-        overflow: hidden;
-    }
+    
     #footer .fbottom{
         padding: 0px;
         flex-direction: column;
@@ -367,7 +365,7 @@ body #svg2{
         transform: translateY(180px);
     }
     .fbottom h6{
-        opacity: .8;
+        opacity: .7;
         font-size: 25px;
         margin-left: 15px;
         transform: translateY(200px);
