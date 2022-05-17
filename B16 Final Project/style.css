@@ -1,3 +1,59 @@
+@font-face {
+    font-family: "Gilroy ExtraBold";
+    font-weight: 900;
+    src: url(Fonts/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family: "Gilroy ExtraBold";
+    font-weight: 100;
+    src: url(Fonts/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family: "Gilroy Light";
+    font-weight: 100;
+    src: url(Fonts/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: "Gilroy Light";
+    font-weight: 600;
+    src: url(Fonts/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: "Cambria Math";
+    font-weight: 800;
+    src: url(Fonts/cambria.ttc);
+}
+@font-face {
+    font-family: "Cambria Math";
+    font-weight: 100;
+    src: url(Fonts/cambria.ttc);
+}
+@font-face {
+    font-family: Hursheys;
+    font-weight: 800;
+    src: url(Fonts/Hursheys.ttf);
+}
+@font-face {
+    font-family: "Bauhaus 93";
+    font-weight: lighter;
+    src: url(Fonts/BAUHS93.TTF);
+}
+@font-face {
+    font-family: "Heebo Black";
+    font-weight: 700;
+    src: url(Fonts/Heebo-VariableFont_wght_0.ttf);
+}
+@font-face {
+    font-family: "Edwardian Script ITC";
+    font-weight: 600;
+    src: url(Fonts/ITCEDSCR.TTF);
+}
+@font-face {
+    font-family: "Copperplate Gothic Light";
+    font-weight: 100;
+    src: url(Fonts/COPRGTL.TTF);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -63,7 +119,7 @@ html,body{
     font-size: 80px;
     margin-top: 30px;
     color: antiquewhite;
-    font-family: hursheys;
+    font-family: Hursheys;
 }
 
 #atags a:hover{
@@ -313,9 +369,10 @@ html,body{
 }
 
 #circle h1{
-    font-size: 120px;
-    font-family: "Heebo Medium";
-    font-weight: 100;
+    font-size: 140px;
+    font-family: "Heebo Black";
+    color: #fff;
+    font-weight: 700;
     transform: translateY(-5%);
 }
 
@@ -494,7 +551,7 @@ html,body{
     position: absolute;
     bottom: 8%;
     left:60px;
-    font-family: "Copperplate Gothic";
+    font-family: "Copperplate Gothic Light";
     font-size: 25px;
     word-spacing: 2px;
     font-weight: 100;
