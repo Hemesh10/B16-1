@@ -59,6 +59,7 @@ function casetteAnimation() {
                 end: "55% 60%",
                 scrub: 1
             },
+            y:"10%",
             fontSize: 0,
             rotate: 360,
             duration: 1
@@ -255,8 +256,8 @@ function fullscreenMenuImageBoxChange() {
             elem.addEventListener("mouseover", function (dets) {
                 gsap.to(".images", {
                     x: dets.target.dataset.base * 100 + "%",
-                    ease: "Ease.easeInOut",
-                    duration: 1
+                    ease: Expo.easeInOut,
+                    duration: 1.5
                 })
             })
         })
