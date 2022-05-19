@@ -3,7 +3,6 @@ window.addEventListener("mousemove", function (dets) {
     document.querySelector("#pointer").style.left = `${dets.clientX}px`;
 });
 
-
 gsap.to(".ttxt h1", {
     y: "-5%",
     stagger: .5,
@@ -262,6 +261,14 @@ function footerHeadingChange() {
 
             tl.to(".moving h1", {
                 y:"-300%",
+                stagger:.3,
+                duration:1,
+                visibility:"visible",
+                ease:Expo.easeInOut
+            });
+
+            tl.to(".moving h1", {
+                y:"-400%",
                 stagger:.3,
                 duration:1,
                 visibility:"visible",

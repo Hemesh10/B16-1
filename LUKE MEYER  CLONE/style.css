@@ -87,7 +87,7 @@ html,body{
     overflow: hidden;
 }
 .ttxt h1{
-    transform: translateY(101%);
+    transform: translateY(100%);
     text-transform: uppercase;
     font-family: "Vanguard CF";
     font-size: 200px;
